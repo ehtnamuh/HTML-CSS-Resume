@@ -1,11 +1,33 @@
 /* Your CSS styles go here */
 body{
-    background-color:#847f68;
-    background-image:url(https://www.highmowingseeds.com/pub/media/catalog/product/cache/image/675x675/e9c3970ab036de70892d86c6d221abfe/2/8/2862.jpg)
+    background-image:url(https://www.highmowingseeds.com/pub/media/catalog/product/cache/image/675x675/e9c3970ab036de70892d86c6d221abfe/2/8/2862.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width:80%;
+    margin: auto;
+}
+
+.parent {
+    /* The image used */
+    background-image: url(https://www.highmowingseeds.com/pub/media/catalog/product/cache/image/675x675/e9c3970ab036de70892d86c6d221abfe/2/8/2862.jpg);
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent>img{
+    filter: blur(1px)
 }
 
 .parent > div {
     padding: 1em;
+    padding-bottom: 50px;
 }
 
 
@@ -22,29 +44,35 @@ th, td {
 tr:nth-child(odd){background-color: #898779}
 
 th {
-    background-color: #4CAF50;
+    background-color: rgba(50,205,50,0.95);
     color: white;
 }
 
 .tit{
-  background-color: rgba(255, 0, 0, 0.4);
+  background-color: rgba(50,205,50, 0.4);
 }
 .cont{
-  background-color: #ffffff;
+   background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
 .sum{
-   background-color: #ffffff;
+    background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
 .edu{
-   background-color: #ffffff;
+    background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
 .expr{
-   background-color: #ffffff;
+    background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
 .skls{
-   background-color: #ffffff;
+   background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
 
 .refs{
-   background-color: #ffffff;
+   background-color: rgba(255, 200, 0, 0.95);
+   text-align: center;
 }
