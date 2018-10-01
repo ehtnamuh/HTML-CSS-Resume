@@ -1,20 +1,50 @@
 /* Your CSS styles go here */
-*{
-    background-color:#bcc4d1;
+body{
+    background-color:#847f68;
+    background-image:url(https://www.highmowingseeds.com/pub/media/catalog/product/cache/image/675x675/e9c3970ab036de70892d86c6d221abfe/2/8/2862.jpg)
 }
 
-table,th{
-border: 1px solid black;
-  text-align: center;
-  color: rgb(0 , 0, 0);
-}
-table,td{
-  border: 1px solid black;
-  text-align: center;
-  color: rgb(255,50,160);
-  
+.parent > div {
+    padding: 1em;
 }
 
-.table-hover table tr:hover td {
-    background-color:  aqua;
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(odd){background-color: #898779}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.tit{
+  background-color: rgba(255, 0, 0, 0.4);
+}
+.cont{
+  background-color: #ffffff;
+}
+.sum{
+   background-color: #ffffff;
+}
+.edu{
+   background-color: #ffffff;
+}
+.expr{
+   background-color: #ffffff;
+}
+.skls{
+   background-color: #ffffff;
+}
+
+.refs{
+   background-color: #ffffff;
 }
