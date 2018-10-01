@@ -11,7 +11,7 @@ body{
 
 .parent {
     /* The image used */
-    background-image: url(https://www.highmowingseeds.com/pub/media/catalog/product/cache/image/675x675/e9c3970ab036de70892d86c6d221abfe/2/8/2862.jpg);
+    background-image: url(http://www.artwall.ru/files/products/poster_p-50780.jpg);
     /* Set a specific height */
     min-height: 500px; 
 
@@ -44,35 +44,35 @@ th, td {
 tr:nth-child(odd){background-color: #898779}
 
 th {
-    background-color: rgba(50,205,50,0.95);
+    background-color: rgba(255,100,10,0.95);
     color: white;
 }
 
 .tit{
-  background-color: rgba(50,205,50, 0.4);
+  background-color:  rgba(255,100,10,0.5);
 }
 .cont{
    background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
+   border-left: 50px solid black;
+   border-right: 10px solid black;
 }
 .sum{
     background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
+    text-align-last: right;
+    border-left: 10px solid black;
+    border-right: 50px solid black;
 }
 .edu{
     background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
+
 }
 .expr{
     background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
 }
 .skls{
    background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
 }
 
 .refs{
    background-color: rgba(255, 200, 0, 0.95);
-   text-align: center;
 }
