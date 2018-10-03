@@ -76,3 +76,21 @@ th {
 .refs{
    background-color: rgba(255, 200, 0, 0.95);
 }
+
+@media (max-width: 575px) {
+  .section-one, .section-two {
+    width: 90%;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 860px) and (min-width: 576px) {
+  .section-one {
+    width: 30%;
+    font-size: 24px;
+  }
+  .section-two {
+    width: 55%;
+    background-color: green;
+  }
+}
