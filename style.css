@@ -93,6 +93,9 @@ th {
 
 @media (max-width: 860px) and (min-width: 576px) {
   .parent {
-    width: 80%;
+    width: 100%;
+  }
+  body{
+      width: 100%;
   }
 }
